@@ -25,6 +25,15 @@
             android:theme="@style/AppTheme">
 
         </activity>
+        <activity android:name=".VideoActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity android:name=".AudioActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>

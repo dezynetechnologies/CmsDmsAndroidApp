@@ -49,6 +49,23 @@ ImageButton html,audio,video,pdf;
             }
         });
 
+        video.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this,VideoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        audio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,AudioActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 
